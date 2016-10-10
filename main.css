@@ -1,0 +1,95 @@
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+	list-style: none;
+}
+
+header, nav, article, aside, footer, section, hgroup {
+	display: block;
+}
+
+body {
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+
+	background-color: #713a92;
+}
+
+#main_header {
+	text-align: center;
+
+	background-color: white;
+	font-size: 24px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#main_header ul li {
+	display: inline-block;
+}
+
+#main_header h1 {
+	color: #5c2e88;
+}
+
+#viber_logo {
+	height: 70px;
+	z-index: 1;
+}
+#viber_logo img {
+	height: 45px;
+}
+
+#top_wrapper {
+	margin-bottom: 0;
+}
+
+#top_wrapper h2 {
+	margin: 8px;
+}
+
+#top_wrapper ul li a {
+	color: white;
+}
+
+#top_wrapper ul li a:hover {
+	color: #555555;
+}
+
+nav#main_header + div {
+	margin-top: 70px;
+}
+
+#main_section {
+	background: #eaeaea; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eaeaea, #fffbff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eaeaea, #fffbff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eaeaea, #fffbff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eaeaea, #fffbff);/* Standard */
+	padding-bottom: 10px;
+}
+
+#about h1 {
+	text-align: left;
+	margin-left: 20px;
+
+	font-size: 42px;
+	color: #59267c;
+}
+
+#about_text {
+	margin: 5px 20px 20px 20px;
+	text-align: left;
+
+	font-size: 24px;
+	color: #302828;
+}
+
+#footer_info {
+	padding-top: 75px;
+	padding-bottom: 10px;
+
+	color: white;
+}
